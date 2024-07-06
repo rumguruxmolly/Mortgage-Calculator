@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title> <link rel="stylesheet" href="style.css"> <script src="scipt.js" defer></script>
+</head>
+<body>
+  <div class="container0">
+  <div class="container">
+    <div class="mini">
+    <h2>Mortgage Calculator</h2> 
+    <button id="clear" class="button">Clear All</button></div>
+    <p>Mortgage Amount</p>
+    <div class="inputContainer">
+      <span>£</span>
+      <input type="text" name="" id="amount">
+
+    </div><br>
+    <div class="displayFlex">
+      <p>Mortgage Term</p>
+      <p class="Interest">Interest Rate</p>
+    </div>
+    <div class="displayFlex">
+      <div class="inputContainer" style="width: 180px;">
+        <input type="text" name="" id="mort" style="padding: 10px 0 10px 10px;">
+        <span style="margin-left: -70px; font-size: 14px;">Years</span>
+      </div>
+    <div class="inputContainer" style="width: 200px; margin-left: 10px; ">
+      <input type="text" name="" id="interest" style="padding: 10px 0 10px 10px;">
+      <span style="margin-left: -50px; font-size: 14px;">%</span>
+
+    </div>
+    </div>
+    <br><p>Mortgage Type </p>
+    <div id="containerMini" class="containerMini">
+      <input type="radio" name="radio" id="R"> <label for="Repayment">Repayment</label>
+    </div><br>
+<div class="containerMini" id="containerMini1">
+  <input type="radio" name="radio" id="I"><label for="Interest">Interest Only</label>
+</div><br>
+<button id="calculate" class="Calculate">🖩 Calculate payments</button>
+</div>
+  <div class="container1">
+    <h2>Your Results</h2>
+    <div style="width: 370px;">
+      <p style="color: #95B1C6;">Your results are shown below based on the information you provided. To adjust the results, edit the form and click "Calculator Repayments" again</p>
+    </div>
+
+    <br><div class="res"><p style="color: #93ADBC; font-size: 16px;">Your monthly repayment</p>  <h1 class="resultat">Result</h1>
+    <p class="lastPar">Total you'll pay over the term</p> <h2 id="totalres"></h2>
+    </div>
+  </div>
+</div>
+<div class="sign">
+  <p >Created by</p><a class="href" href="https://github.com/rumguruxmolly/">rumguruxmolly</a>
+</div>
+
+</body>
+</html>
